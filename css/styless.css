@@ -1,0 +1,114 @@
+body{
+    font-family: 'Lato',sans-serif;	    
+    padding: 0;	  
+    margin: 0;	
+    box-sizing: border-box;	    
+    overflow-x: hidden;	   
+    }
+ h1{
+        color: white;
+    }
+.landing-page{	
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/backgrounds/h_img.jpg);	    
+    height: 80vh;	    
+    background-size: cover;	   
+    background-position:center;
+    background-repeat: no-repeat;	    
+    background-attachment: initial;
+    text-align: center;
+    text-decoration: white;
+}
+#mouse{	
+    animation:bounce 2s infinite;	  
+	}
+#about{	
+    text-align: center;
+    background-color: white;	    
+}	
+.services{	
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/backgrounds/s_image.jpg);	  
+    height: 60vh;	   
+    background-position: center;	    
+    background-repeat: no-repeat;	   
+    background-size: cover;	    
+    text-align: center;
+    text-emphasis-color: white;	    
+}
+.container pt-q5 pl-5{
+     align-content: space-between;
+     border-image: space;
+}
+
+.contacts{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(../assets/backgrounds/c_image.jpg);    
+    height: 75vh;
+    background-size:cover;	    
+    background-repeat: no-repeat;	    
+    background-position-x: center; 
+    text-align: center;
+}
+.form size{
+    height: 200vh;
+    width: 200vw;
+    box-sizing: content-box;
+}
+.jimy{
+    position: relative;
+}
+.ringo{
+    position: absolute;
+    height: 0;
+    background-color:rgb(0, 0, 0,0.9);
+    color: white;
+    text-align: center;
+    /* padding-top: 15%; */
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    width: 68%;
+    transition: 1s;
+}
+
+.text{
+    padding-top: 45%;
+}
+.bang:hover .ringo{
+    height: 100%;
+    opacity: 1;
+}
+.projects{
+    margin-left: 3%;
+}
+#name,#email,#submit,#message{
+    background-color: transparent;
+}
+.container{
+    size:80vh 80vw ;
+}
+#product,#development,#design{
+    display: none;
+}
+#portfolio:hover .overlay{	 
+    opacity: 1;	   
+ } 	  
+ #port:hover .p_name{	 
+    opacity: 1;	    
+ }	 
+ #port2:hover .project3{	
+    opacity: 1;	    
+ } 	 
+ #port3:hover .project4{	 
+     opacity: 1;	     
+ }	 
+ #port4:hover .project5{	 
+     opacity: 1;	     
+ }	 
+ #port5:hover .project6{	 
+     opacity: 1;	     
+ }	 
+ #port6:hover .project7{	
+     opacity: 1;	     
+ }	 
+ #port7:hover .project8{
+     opacity: 1;	     
+ }	 
