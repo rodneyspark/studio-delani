@@ -11,8 +11,8 @@ $(document).ready(function(){
   });
   $(document).ready(function(){
     $("#design-img").click(function(){
-    $("#design-img").toggle();
-    $("#design").toggle();
+    $("#design-img").slideToggle();
+    $("#design").slideToggle();
   });
       $("#design").click(function(){
         $("#design").slideUp();
