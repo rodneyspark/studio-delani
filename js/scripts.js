@@ -35,7 +35,8 @@ $(document).ready(function(){
         let name  =  $('input#name').val();
         let email  = $('input#email').val()
         let  message = $('input#message').val()
-
+        
         alert('Hello ' + name + ' we have received your message thank you for reaching out')
+
     });
 })
